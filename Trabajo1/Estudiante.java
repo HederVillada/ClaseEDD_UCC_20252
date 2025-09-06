@@ -17,7 +17,8 @@ public class Estudiante {
 
     // ===== Métodos de arreglo =====
 
-    public void iterarEstudiantes(Estudiante[] lista) { //recorre un arreglo de estudiantes y muestra todos
+    public void iterarEstudiantes(Estudiante[] lista) { //recorre un arreglo de estudiantes y 
+        //muestra todos
         for (Estudiante e : lista) {
             if (e != null) e.mostrarInformacion();
         }
